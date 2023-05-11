@@ -1,0 +1,199 @@
+2023-04-23T20:17:29.741660+00:00 app[worker.1]: 0|index  |     at flush (/app/node_modules/@adiwajshing/baileys/lib/Utils/event-buffer.js:58:16)
+2023-04-23T20:17:29.741661+00:00 app[worker.1]: 0|index  |     at async /app/node_modules/@adiwajshing/baileys/lib/Utils/event-buffer.js:96:25
+2023-04-23T20:17:29.741661+00:00 app[worker.1]: 0|index  |     at async /app/node_modules/@adiwajshing/baileys/lib/Socket/messages-recv.js:401:17
+2023-04-23T20:17:29.741661+00:00 app[worker.1]: 0|index  |     at async Promise.all (index 0)
+2023-04-23T20:17:29.741664+00:00 app[worker.1]: 0|index  |     at async handleMessage (/app/node_modules/@adiwajshing/baileys/lib/Socket/messages-recv.js:356:9)
+2023-04-23T20:18:22.739637+00:00 app[api]: Scaled to worker@0:Eco by user sihopog378@nexwp.com
+2023-04-23T20:18:23.072009+00:00 heroku[worker.1]: State changed from up to down
+2023-04-23T20:18:23.566412+00:00 heroku[worker.1]: Stopping all processes with SIGTERM
+2023-04-23T20:18:23.739330+00:00 heroku[worker.1]: Process exited with status 143
+2023-04-23T20:18:27.198179+00:00 app[api]: Scaled to worker@1:Eco by user sihopog378@nexwp.com
+2023-04-23T20:18:35.619267+00:00 heroku[worker.1]: Starting process with command `npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs`
+2023-04-23T20:18:36.171588+00:00 heroku[worker.1]: State changed from starting to up
+2023-04-23T20:18:41.739230+00:00 app[worker.1]: [PM2] Spawning PM2 daemon with pm2_home=/app/.pm2
+2023-04-23T20:18:41.866976+00:00 app[worker.1]: [PM2] PM2 Successfully daemonized
+2023-04-23T20:18:41.878855+00:00 app[worker.1]: [PM2] Starting /app/index.js in fork_mode (1 instance)
+2023-04-23T20:18:41.888712+00:00 app[worker.1]: [PM2] Done.
+2023-04-23T20:18:41.916809+00:00 app[worker.1]: ┌────┬──────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+2023-04-23T20:18:41.916811+00:00 app[worker.1]: │ id │ name     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+2023-04-23T20:18:41.916813+00:00 app[worker.1]: ├────┼──────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+2023-04-23T20:18:41.916814+00:00 app[worker.1]: │ 0  │ index    │ default     │ 6.0.0   │ fork    │ 42       │ 0s     │ 0    │ online    │ 0%       │ 44.6mb   │ u53314   │ disabled │
+2023-04-23T20:18:41.916814+00:00 app[worker.1]: └────┴──────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2023-04-23T20:18:41.024635+00:00 app[worker.1]: npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+2023-04-23T20:18:41.470146+00:00 app[worker.1]: 
+2023-04-23T20:18:41.470160+00:00 app[worker.1]: added 184 packages in 5s
+2023-04-23T20:18:41.470265+00:00 app[worker.1]: 
+2023-04-23T20:18:41.470291+00:00 app[worker.1]: 12 packages are looking for funding
+2023-04-23T20:18:41.470326+00:00 app[worker.1]:   run `npm fund` for details
+2023-04-23T20:18:41.470828+00:00 app[worker.1]: npm notice 
+2023-04-23T20:18:41.470851+00:00 app[worker.1]: npm notice New minor version of npm available! 9.5.0 -> 9.6.5
+2023-04-23T20:18:41.470879+00:00 app[worker.1]: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.5>
+2023-04-23T20:18:41.470903+00:00 app[worker.1]: npm notice Run `npm install -g npm@9.6.5` to update!
+2023-04-23T20:18:41.470925+00:00 app[worker.1]: npm notice 
+2023-04-23T20:18:41.633460+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633461+00:00 app[worker.1]:                         -------------
+2023-04-23T20:18:41.633462+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633462+00:00 app[worker.1]: __/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+2023-04-23T20:18:41.633462+00:00 app[worker.1]:  _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+2023-04-23T20:18:41.633463+00:00 app[worker.1]:   _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+2023-04-23T20:18:41.633463+00:00 app[worker.1]:    _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+2023-04-23T20:18:41.633463+00:00 app[worker.1]:     _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+2023-04-23T20:18:41.633464+00:00 app[worker.1]:      _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+2023-04-23T20:18:41.633464+00:00 app[worker.1]:       _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+2023-04-23T20:18:41.633464+00:00 app[worker.1]:        _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+2023-04-23T20:18:41.633464+00:00 app[worker.1]:         _\///______________\///______________\///__\///////////////__
+2023-04-23T20:18:41.633465+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633465+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633465+00:00 app[worker.1]:                           Runtime Edition
+2023-04-23T20:18:41.633465+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633465+00:00 app[worker.1]:         PM2 is a Production Process Manager for Node.js applications
+2023-04-23T20:18:41.633466+00:00 app[worker.1]:                      with a built-in Load Balancer.
+2023-04-23T20:18:41.633466+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633466+00:00 app[worker.1]:                 Start and Daemonize any application:
+2023-04-23T20:18:41.633466+00:00 app[worker.1]:                 $ pm2 start app.js
+2023-04-23T20:18:41.633469+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633469+00:00 app[worker.1]:                 Load Balance 4 instances of api.js:
+2023-04-23T20:18:41.633469+00:00 app[worker.1]:                 $ pm2 start api.js -i 4
+2023-04-23T20:18:41.633469+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633469+00:00 app[worker.1]:                 Monitor in production:
+2023-04-23T20:18:41.633470+00:00 app[worker.1]:                 $ pm2 monitor
+2023-04-23T20:18:41.633470+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633470+00:00 app[worker.1]:                 Make pm2 auto-boot at server restart:
+2023-04-23T20:18:41.633471+00:00 app[worker.1]:                 $ pm2 startup
+2023-04-23T20:18:41.633471+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633471+00:00 app[worker.1]:                 To go further checkout:
+2023-04-23T20:18:41.633471+00:00 app[worker.1]:                 http://pm2.io/
+2023-04-23T20:18:41.633471+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633471+00:00 app[worker.1]: 
+2023-04-23T20:18:41.633471+00:00 app[worker.1]:                         -------------
+2023-04-23T20:18:41.633472+00:00 app[worker.1]: 
+2023-04-23T20:18:42.067719+00:00 app[worker.1]: [PM2] Saving current process list...
+2023-04-23T20:18:42.069901+00:00 app[worker.1]: [PM2] Successfully saved in /app/.pm2/dump.pm2
+2023-04-23T20:18:42.209398+00:00 app[worker.1]: [TAILING] Tailing last 15 lines for [all] processes (change the value with --lines option)
+2023-04-23T20:18:42.211770+00:00 app[worker.1]: /app/.pm2/pm2.log last 15 lines:
+2023-04-23T20:18:42.211984+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: PM2 version          : 5.3.0
+2023-04-23T20:18:42.212031+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: Node.js version      : 18.15.0
+2023-04-23T20:18:42.212079+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: Current arch         : x64
+2023-04-23T20:18:42.212120+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: PM2 home             : /app/.pm2
+2023-04-23T20:18:42.212222+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: PM2 PID file         : /app/.pm2/pm2.pid
+2023-04-23T20:18:42.212256+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: RPC socket file      : /app/.pm2/rpc.sock
+2023-04-23T20:18:42.212297+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: BUS socket file      : /app/.pm2/pub.sock
+2023-04-23T20:18:42.212392+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: Application log path : /app/.pm2/logs
+2023-04-23T20:18:42.212425+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: Worker Interval      : 30000
+2023-04-23T20:18:42.212458+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: Process dump file    : /app/.pm2/dump.pm2
+2023-04-23T20:18:42.212488+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: Concurrent actions   : 2
+2023-04-23T20:18:42.212514+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: SIGTERM timeout      : 1600
+2023-04-23T20:18:42.212599+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: ===============================================================================
+2023-04-23T20:18:42.212627+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: App [index:0] starting in -fork mode-
+2023-04-23T20:18:42.212657+00:00 app[worker.1]: PM2        | 2023-04-23T20:18:41: PM2 log: App [index:0] online
+2023-04-23T20:18:42.212671+00:00 app[worker.1]: 
+2023-04-23T20:18:42.213294+00:00 app[worker.1]: /app/.pm2/logs/index-out.log last 15 lines:
+2023-04-23T20:18:42.213576+00:00 app[worker.1]: /app/.pm2/logs/index-error.log last 15 lines:
+2023-04-23T20:18:42.533793+00:00 app[worker.1]: 0|index  | Connected... {
+2023-04-23T20:18:42.533807+00:00 app[worker.1]: 0|index  |   connection: 'connecting',
+2023-04-23T20:18:42.533827+00:00 app[worker.1]: 0|index  |   receivedPendingNotifications: false,
+2023-04-23T20:18:42.533845+00:00 app[worker.1]: 0|index  |   qr: undefined
+2023-04-23T20:18:42.533864+00:00 app[worker.1]: 0|index  | }
+2023-04-23T20:18:43.745709+00:00 app[worker.1]: 0|index  | Connected... { isOnline: true }
+2023-04-23T20:18:43.745903+00:00 app[worker.1]: 0|index  | Connected... { connection: 'open' }
+2023-04-23T20:18:43.804762+00:00 app[worker.1]: 0|index  | Connected... { receivedPendingNotifications: true }
+2023-04-23T20:18:48.962287+00:00 app[worker.1]: 0|index  | Closing open session in favor of incoming prekey bundle
+2023-04-23T20:18:48.962622+00:00 app[worker.1]: 0|index  | Closing session: SessionEntry {
+2023-04-23T20:18:48.962635+00:00 app[worker.1]: 0|index  |   _chains: {
+2023-04-23T20:18:48.962648+00:00 app[worker.1]: 0|index  |     'Bdc89UviyjbPXFYoYHVOjggxW2lj/Ok7oXeRt+Tb1E9e': { chainKey: [Object], chainType: 2, messageKeys: {} },
+2023-04-23T20:18:48.962660+00:00 app[worker.1]: 0|index  |     BY7r7htCGNXh7nu67X80DzeMP9CEMl5KKa5TNw7q1mZ1: { chainKey: [Object], chainType: 1, messageKeys: {} }
+2023-04-23T20:18:48.962672+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:48.962673+00:00 app[worker.1]: 0|index  |   registrationId: 919400091,
+2023-04-23T20:18:48.962685+00:00 app[worker.1]: 0|index  |   currentRatchet: {
+2023-04-23T20:18:48.962697+00:00 app[worker.1]: 0|index  |     ephemeralKeyPair: {
+2023-04-23T20:18:48.962699+00:00 app[worker.1]: 0|index  |       pubKey: <Buffer 05 8e eb ee 1b 42 18 d5 e1 ee 7b ba ed 7f 34 0f 37 8c 3f d0 84 32 5e 4a 29 ae 53 37 0e ea d6 66 75>,
+2023-04-23T20:18:48.962712+00:00 app[worker.1]: 0|index  |       privKey: <Buffer 68 76 a6 63 b0 86 50 06 7f 4b ca 3e ca 5a cc 6b d1 34 43 62 6c 54 7e 51 5b 0d 6c ab 21 8e 2c 42>
+2023-04-23T20:18:48.962712+00:00 app[worker.1]: 0|index  |     },
+2023-04-23T20:18:48.962727+00:00 app[worker.1]: 0|index  |     lastRemoteEphemeralKey: <Buffer 05 d7 3c f5 4b e2 ca 36 cf 5c 56 28 60 75 4e 8e 08 31 5b 69 63 fc e9 3b a1 77 91 b7 e4 db d4 4f 5e>,
+2023-04-23T20:18:48.962729+00:00 app[worker.1]: 0|index  |     previousCounter: 0,
+2023-04-23T20:18:48.962741+00:00 app[worker.1]: 0|index  |     rootKey: <Buffer b4 43 93 c8 97 b3 83 2c bb 89 5f 81 5c c4 a6 4b c7 31 07 b5 ec 32 0c c5 1b 51 9a 23 3b 5c cd cf>
+2023-04-23T20:18:48.962754+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:48.962755+00:00 app[worker.1]: 0|index  |   indexInfo: {
+2023-04-23T20:18:48.962766+00:00 app[worker.1]: 0|index  |     baseKey: <Buffer 05 07 03 6f 05 68 ea 39 66 79 8f 74 28 7a a3 87 a8 f3 1e 6c 8a c0 68 17 1e aa 43 9e 99 33 75 4d 12>,
+2023-04-23T20:18:48.962779+00:00 app[worker.1]: 0|index  |     baseKeyType: 2,
+2023-04-23T20:18:48.962780+00:00 app[worker.1]: 0|index  |     closed: -1,
+2023-04-23T20:18:48.962792+00:00 app[worker.1]: 0|index  |     used: 1682281128194,
+2023-04-23T20:18:48.962804+00:00 app[worker.1]: 0|index  |     created: 1682281128194,
+2023-04-23T20:18:48.962805+00:00 app[worker.1]: 0|index  |     remoteIdentityKey: <Buffer 05 a3 e6 66 60 63 00 bd 83 24 91 07 b4 82 0a bd c3 f0 f9 d4 7b f9 9c ee 23 50 e7 80 e1 60 5b 12 0a>
+2023-04-23T20:18:48.962817+00:00 app[worker.1]: 0|index  |   }
+2023-04-23T20:18:48.962829+00:00 app[worker.1]: 0|index  | }
+2023-04-23T20:18:48.191940+00:00 app[worker.1]: 0|index  | Closing open session in favor of incoming prekey bundle
+2023-04-23T20:18:48.192287+00:00 app[worker.1]: 0|index  | Closing session: SessionEntry {
+2023-04-23T20:18:48.192301+00:00 app[worker.1]: 0|index  |   _chains: {
+2023-04-23T20:18:48.192315+00:00 app[worker.1]: 0|index  |     'BekZpPyb2dBMYwuG9MHr00R1uSTgQf/fsJyjYjlB2O9I': { chainKey: [Object], chainType: 2, messageKeys: {} },
+2023-04-23T20:18:48.192328+00:00 app[worker.1]: 0|index  |     'BbF/pPlygyPVxHcXpV96CbAAd6lzYTlZ8J59LBGkKYQk': { chainKey: [Object], chainType: 1, messageKeys: {} }
+2023-04-23T20:18:48.192341+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:48.192342+00:00 app[worker.1]: 0|index  |   registrationId: 919400091,
+2023-04-23T20:18:48.192355+00:00 app[worker.1]: 0|index  |   currentRatchet: {
+2023-04-23T20:18:48.192367+00:00 app[worker.1]: 0|index  |     ephemeralKeyPair: {
+2023-04-23T20:18:48.192382+00:00 app[worker.1]: 0|index  |       pubKey: <Buffer 05 b1 7f a4 f9 72 83 23 d5 c4 77 17 a5 5f 7a 09 b0 00 77 a9 73 61 39 59 f0 9e 7d 2c 11 a4 29 84 24>,
+2023-04-23T20:18:48.192395+00:00 app[worker.1]: 0|index  |       privKey: <Buffer 90 fe df 9a 0f 23 f0 af 83 00 cf 8c 9c e1 82 7f b9 68 59 67 49 b0 a5 05 f8 df 91 3c 9c 39 80 43>
+2023-04-23T20:18:48.192395+00:00 app[worker.1]: 0|index  |     },
+2023-04-23T20:18:48.192409+00:00 app[worker.1]: 0|index  |     lastRemoteEphemeralKey: <Buffer 05 e9 19 a4 fc 9b d9 d0 4c 63 0b 86 f4 c1 eb d3 44 75 b9 24 e0 41 ff df b0 9c a3 62 39 41 d8 ef 48>,
+2023-04-23T20:18:48.192422+00:00 app[worker.1]: 0|index  |     previousCounter: 0,
+2023-04-23T20:18:48.192434+00:00 app[worker.1]: 0|index  |     rootKey: <Buffer 09 55 36 74 6a b8 46 f0 74 fd 82 74 43 d4 4d 78 f8 d3 d9 0c 0d 75 e8 d6 2c 14 8b 20 84 71 82 2a>
+2023-04-23T20:18:48.192446+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:48.192448+00:00 app[worker.1]: 0|index  |   indexInfo: {
+2023-04-23T20:18:48.192460+00:00 app[worker.1]: 0|index  |     baseKey: <Buffer 05 a9 e5 a1 a1 d7 2d 19 04 b1 5c 1c ff 07 f3 24 64 17 b1 c8 79 20 d0 52 8b 1e 3f 6d e9 72 d7 38 56>,
+2023-04-23T20:18:48.192588+00:00 app[worker.1]: 0|index  |     baseKeyType: 2,
+2023-04-23T20:18:48.192602+00:00 app[worker.1]: 0|index  |     closed: -1,
+2023-04-23T20:18:48.192615+00:00 app[worker.1]: 0|index  |     used: 1682281128121,
+2023-04-23T20:18:48.192615+00:00 app[worker.1]: 0|index  |     created: 1682281128121,
+2023-04-23T20:18:48.192627+00:00 app[worker.1]: 0|index  |     remoteIdentityKey: <Buffer 05 a3 e6 66 60 63 00 bd 83 24 91 07 b4 82 0a bd c3 f0 f9 d4 7b f9 9c ee 23 50 e7 80 e1 60 5b 12 0a>
+2023-04-23T20:18:48.192640+00:00 app[worker.1]: 0|index  |   }
+2023-04-23T20:18:48.192652+00:00 app[worker.1]: 0|index  | }
+2023-04-23T20:18:49.710484+00:00 app[worker.1]: 0|index  | Closing open session in favor of incoming prekey bundle
+2023-04-23T20:18:49.710643+00:00 app[worker.1]: 0|index  | Closing session: SessionEntry {
+2023-04-23T20:18:49.710657+00:00 app[worker.1]: 0|index  |   _chains: {
+2023-04-23T20:18:49.710669+00:00 app[worker.1]: 0|index  |     'BWtHHyf3pRyqdn5yj+pmIaI+iIemjHLDMiAImKW3eqIw': { chainKey: [Object], chainType: 2, messageKeys: {} },
+2023-04-23T20:18:49.710670+00:00 app[worker.1]: 0|index  |     BdDUQBVRiD3kAm5SpjzEZzsPIm29MzvLLYv9U6lrW3Qd: { chainKey: [Object], chainType: 1, messageKeys: {} }
+2023-04-23T20:18:49.710682+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:49.710694+00:00 app[worker.1]: 0|index  |   registrationId: 919400091,
+2023-04-23T20:18:49.710695+00:00 app[worker.1]: 0|index  |   currentRatchet: {
+2023-04-23T20:18:49.710707+00:00 app[worker.1]: 0|index  |     ephemeralKeyPair: {
+2023-04-23T20:18:49.710720+00:00 app[worker.1]: 0|index  |       pubKey: <Buffer 05 d0 d4 40 15 51 88 3d e4 02 6e 52 a6 3c c4 67 3b 0f 22 6d bd 33 3b cb 2d 8b fd 53 a9 6b 5b 74 1d>,
+2023-04-23T20:18:49.710720+00:00 app[worker.1]: 0|index  |       privKey: <Buffer 08 29 70 c3 44 32 7b f7 a6 4b c0 d6 08 f8 90 e2 4d ef fc c8 9e 8c 23 33 38 58 40 d0 bb 31 25 73>
+2023-04-23T20:18:49.710732+00:00 app[worker.1]: 0|index  |     },
+2023-04-23T20:18:49.710744+00:00 app[worker.1]: 0|index  |     lastRemoteEphemeralKey: <Buffer 05 6b 47 1f 27 f7 a5 1c aa 76 7e 72 8f ea 66 21 a2 3e 88 87 a6 8c 72 c3 32 20 08 98 a5 b7 7a a2 30>,
+2023-04-23T20:18:49.710745+00:00 app[worker.1]: 0|index  |     previousCounter: 0,
+2023-04-23T20:18:49.710757+00:00 app[worker.1]: 0|index  |     rootKey: <Buffer 53 37 12 0e a8 70 17 01 5a 3e e0 0d e2 d4 2e 26 ec 30 d4 8f bb 18 82 27 b5 5c 54 93 6f 4c 29 e9>
+2023-04-23T20:18:49.710769+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:49.710769+00:00 app[worker.1]: 0|index  |   indexInfo: {
+2023-04-23T20:18:49.710781+00:00 app[worker.1]: 0|index  |     baseKey: <Buffer 05 82 70 89 c2 15 0b bd f2 1b e0 9a 6d c4 7c 86 cb 5d 9d b9 8f 96 a9 c8 1c ef 6b 78 5e 00 38 2c 77>,
+2023-04-23T20:18:49.710793+00:00 app[worker.1]: 0|index  |     baseKeyType: 2,
+2023-04-23T20:18:49.710793+00:00 app[worker.1]: 0|index  |     closed: -1,
+2023-04-23T20:18:49.710805+00:00 app[worker.1]: 0|index  |     used: 1682281128964,
+2023-04-23T20:18:49.710817+00:00 app[worker.1]: 0|index  |     created: 1682281128964,
+2023-04-23T20:18:49.710817+00:00 app[worker.1]: 0|index  |     remoteIdentityKey: <Buffer 05 a3 e6 66 60 63 00 bd 83 24 91 07 b4 82 0a bd c3 f0 f9 d4 7b f9 9c ee 23 50 e7 80 e1 60 5b 12 0a>
+2023-04-23T20:18:49.710829+00:00 app[worker.1]: 0|index  |   }
+2023-04-23T20:18:49.710842+00:00 app[worker.1]: 0|index  | }
+2023-04-23T20:18:50.446134+00:00 app[worker.1]: 0|index  | Closing open session in favor of incoming prekey bundle
+2023-04-23T20:18:50.446277+00:00 app[worker.1]: 0|index  | Closing session: SessionEntry {
+2023-04-23T20:18:50.446278+00:00 app[worker.1]: 0|index  |   _chains: {
+2023-04-23T20:18:50.446291+00:00 app[worker.1]: 0|index  |     BRKnfHBXih6nGw55EJYrmDAcMZdz4JMemrOjdxiYqrxp: { chainKey: [Object], chainType: 2, messageKeys: {} },
+2023-04-23T20:18:50.446291+00:00 app[worker.1]: 0|index  |     BTP4U0E5cljh9EiyA85pzw0hyWHsjPxDK1U5FHwUkrwH: { chainKey: [Object], chainType: 1, messageKeys: {} }
+2023-04-23T20:18:50.446302+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:50.446302+00:00 app[worker.1]: 0|index  |   registrationId: 919400091,
+2023-04-23T20:18:50.446312+00:00 app[worker.1]: 0|index  |   currentRatchet: {
+2023-04-23T20:18:50.446312+00:00 app[worker.1]: 0|index  |     ephemeralKeyPair: {
+2023-04-23T20:18:50.446322+00:00 app[worker.1]: 0|index  |       pubKey: <Buffer 05 33 f8 53 41 39 72 58 e1 f4 48 b2 03 ce 69 cf 0d 21 c9 61 ec 8c fc 43 2b 55 39 14 7c 14 92 bc 07>,
+2023-04-23T20:18:50.446323+00:00 app[worker.1]: 0|index  |       privKey: <Buffer a8 62 49 6c d9 97 eb 14 1f aa c4 57 71 49 50 cc 41 58 71 f5 6b e7 5b 6d 3f 88 81 17 37 d6 f9 72>
+2023-04-23T20:18:50.446333+00:00 app[worker.1]: 0|index  |     },
+2023-04-23T20:18:50.446342+00:00 app[worker.1]: 0|index  |     lastRemoteEphemeralKey: <Buffer 05 12 a7 7c 70 57 8a 1e a7 1b 0e 79 10 96 2b 98 30 1c 31 97 73 e0 93 1e 9a b3 a3 77 18 98 aa bc 69>,
+2023-04-23T20:18:50.446343+00:00 app[worker.1]: 0|index  |     previousCounter: 0,
+2023-04-23T20:18:50.446361+00:00 app[worker.1]: 0|index  |     rootKey: <Buffer bc bc a6 1d e3 77 22 7e 44 cb aa 0c 38 1c a7 bd 11 16 39 7f 54 f8 e4 1d 7e a7 fd e3 59 96 2c 30>
+2023-04-23T20:18:50.446361+00:00 app[worker.1]: 0|index  |   },
+2023-04-23T20:18:50.446363+00:00 app[worker.1]: 0|index  |   indexInfo: {
+2023-04-23T20:18:50.446363+00:00 app[worker.1]: 0|index  |     baseKey: <Buffer 05 ad d0 e3 4f 37 9c 6e ac 04 a1 8a 1d 09 24 16 c3 05 77 ac ff 62 f7 83 1d bb 01 03 17 51 d3 01 3f>,
+2023-04-23T20:18:50.446373+00:00 app[worker.1]: 0|index  |     baseKeyType: 2,
+2023-04-23T20:18:50.446374+00:00 app[worker.1]: 0|index  |     closed: -1,
+2023-04-23T20:18:50.446383+00:00 app[worker.1]: 0|index  |     used: 1682281129712,
+2023-04-23T20:18:50.446384+00:00 app[worker.1]: 0|index  |     created: 1682281129712,
+2023-04-23T20:18:50.446393+00:00 app[worker.1]: 0|index  |     remoteIdentityKey: <Buffer 05 a3 e6 66 60 63 00 bd 83 24 91 07 b4 82 0a bd c3 f0 f9 d4 7b f9 9c ee 23 50 e7 80 e1 60 5b 12 0a>
+2023-04-23T20:18:50.446403+00:00 app[worker.1]: 0|index  |   }
+2023-04-23T20:18:50.446403+00:00 app[worker.1]: 0|index  | }
